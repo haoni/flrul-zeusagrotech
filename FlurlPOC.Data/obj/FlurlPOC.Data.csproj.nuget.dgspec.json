@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/FlurlPOC.csproj": {}
+    "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/FlurlPOC.Data.csproj": {}
   },
   "projects": {
-    "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/FlurlPOC.csproj": {
+    "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/FlurlPOC.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/FlurlPOC.csproj",
-        "projectName": "FlurlPOC",
-        "projectPath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/FlurlPOC.csproj",
+        "projectUniqueName": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/FlurlPOC.Data.csproj",
+        "projectName": "FlurlPOC.Data",
+        "projectPath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/FlurlPOC.Data.csproj",
         "packagesPath": "/Users/haonihashimoto/.nuget/packages/",
-        "outputPath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/obj/",
+        "outputPath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,16 +40,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "flurl": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "flurl.http": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

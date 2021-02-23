@@ -10,4 +10,8 @@
     <PackageReference Include="flurl.http" Version="3.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlurlPOC.Service\FlurlPOC.Service.csproj" />
+  </ItemGroup>
+
 </Project>

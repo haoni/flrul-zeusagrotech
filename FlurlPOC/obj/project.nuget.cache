@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UmTGGFH2v4cnt9yO1Xh/c4GBUf27ZGJwi+FaMcczvhfZOFE9xLV5WmrIzLKrn7unVwg5J1gSX3TeSX2PhVB6bw==",
+  "dgSpecHash": "DnKU0pqQmg6A6H0mwj7WceGjB+t4/tEGvoFp3RKQLgMFHAyWHRl6dh2XlEHN0rsQ8/hoA9p4JMYaxGncHpJo4g==",
   "success": true,
-  "projectFilePath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC/FlurlPOC.csproj",
+  "projectFilePath": "/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC/FlurlPOC.csproj",
   "expectedPackageFiles": [
     "/Users/haonihashimoto/.nuget/packages/flurl/3.0.1/flurl.3.0.1.nupkg.sha512",
     "/Users/haonihashimoto/.nuget/packages/flurl.http/3.0.1/flurl.http.3.0.1.nupkg.sha512",
