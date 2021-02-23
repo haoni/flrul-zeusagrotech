@@ -1,0 +1,12 @@
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/bin/Debug/net5.0/FlurlPOC.Data.deps.json
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/bin/Debug/net5.0/FlurlPOC.Data.dll
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/bin/Debug/net5.0/ref/FlurlPOC.Data.dll
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/bin/Debug/net5.0/FlurlPOC.Data.pdb
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.csprojAssemblyReference.cache
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.AssemblyInfoInputs.cache
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.AssemblyInfo.cs
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.csproj.CoreCompileInputs.cache
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.dll
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/ref/FlurlPOC.Data.dll
+/Users/haonihashimoto/Nuvem/POC/FlurlPOC-Soluction/FlurlPOC.Data/obj/Debug/net5.0/FlurlPOC.Data.pdb

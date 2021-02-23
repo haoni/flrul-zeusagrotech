@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FlurlPOC.Data/1.0.0": {
+        "runtime": {
+          "FlurlPOC.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlurlPOC.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

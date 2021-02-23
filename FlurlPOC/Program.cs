@@ -4,8 +4,10 @@ using System.Net;
 using System;
 using Flurl;
 using Flurl.Http;
-using FlurlPOC.Dto;
+using FlurlPOC.Service.Dto;
+
 using System.Collections.Generic;
+using FlurlPOC.Service.Business;
 
 namespace FlurlPOC
 {
@@ -19,39 +21,17 @@ namespace FlurlPOC
 
             try
             {
-                var login = new Login("api-client-public@zeusagro.com", "public");
+                var zeusAgroTechService = new ZeusAgroTech();
 
-                var credential = urlLogin
-                    .WithHeaders(new { Accept = "application/json", Content_Type = "application/json" })
-                    .SendJsonAsync(HttpMethod.Post, login)
-                    .ReceiveJson<Credential>()
-                    .GetAwaiter()
-                    .GetResult();
+                var usuarioApiZeusDto = new UsuarioApiZeusDto();
+                usuarioApiZeusDto.Senha = "public";
+                usuarioApiZeusDto.Login = "api-client-public@zeusagro.com";
 
-                var pics = urlPic.WithOAuthBearerToken(credential.user.token).GetJsonAsync<List<Pic>>().GetAwaiter().GetResult();
+                var zeusUser = zeusAgroTechService.AuthUsuarioApiZeus(urlLogin, usuarioApiZeusDto);
 
-                Pic myPic = null;
+                var myPic = zeusAgroTechService.GetPicsApiZeus(urlPic, zeusUser);
 
-                if(pics.Count != 1)
-                    throw new Exception("Deu ruim mano!");
-
-                myPic = pics[0];
-
-                var dateReference = DateTime.Now.AddDays(-1);
-                var formatedDataReference = dateReference.ToString("yyyy-MM-dd");
-
-                var urlMonitoring = $"https://www.cropnet.us/api/v1/pics/{myPic.picId}/monitoring?start={formatedDataReference}&end={formatedDataReference}";
-
-                var monitorings = urlMonitoring.WithOAuthBearerToken(credential.user.token).GetJsonAsync<List<Monitoring>>().GetAwaiter().GetResult();
-
-                if(monitorings.Count <= 0)
-                    throw new Exception("Deu ruim mano!");
-
-                var chuvaAcumulada = 0.0;
-
-                monitorings.ForEach( item => {
-                    chuvaAcumulada += item.rain;
-                });
+                var chuvaAcumulada = zeusAgroTechService.GetPreciptacaoApiZeus(urlPic, myPic.picId, zeusUser);
 
                 Console.WriteLine(chuvaAcumulada);
 

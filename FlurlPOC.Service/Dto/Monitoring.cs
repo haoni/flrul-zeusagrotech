@@ -1,8 +1,6 @@
-
-
 using System;
 
-namespace FlurlPOC.Dto
+namespace FlurlPOC.Service.Dto
 {
     public class Monitoring
     {

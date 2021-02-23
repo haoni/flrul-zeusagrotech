@@ -1,4 +1,4 @@
-namespace FlurlPOC.Dto
+namespace FlurlPOC.Service.Dto
 {
     public class Login {
 

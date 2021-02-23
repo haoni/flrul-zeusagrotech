@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "FlurlPOC/1.0.0": {
+      "FlurlPOC.Service/1.0.0": {
         "dependencies": {
-          "FlurlPOC.Service": "1.0.0",
           "Flurl": "3.0.1",
-          "Flurl.Http": "3.0.1"
+          "Flurl.Http": "3.0.1",
+          "FlurlPOC.Data": "1.0.0"
         },
         "runtime": {
-          "FlurlPOC.dll": {}
+          "FlurlPOC.Service.dll": {}
         }
       },
       "Flurl/3.0.1": {
@@ -57,21 +57,11 @@
         "runtime": {
           "FlurlPOC.Data.dll": {}
         }
-      },
-      "FlurlPOC.Service/1.0.0": {
-        "dependencies": {
-          "Flurl": "3.0.1",
-          "Flurl.Http": "3.0.1",
-          "FlurlPOC.Data": "1.0.0"
-        },
-        "runtime": {
-          "FlurlPOC.Service.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "FlurlPOC/1.0.0": {
+    "FlurlPOC.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -119,11 +109,6 @@
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
     "FlurlPOC.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FlurlPOC.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

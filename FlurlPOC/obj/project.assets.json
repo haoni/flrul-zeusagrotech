@@ -85,6 +85,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Flurl": "3.0.1",
+          "Flurl.Http": "3.0.1",
           "FlurlPOC.Data": "1.0.0"
         },
         "compile": {
